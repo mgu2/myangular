@@ -1,10 +1,17 @@
 {
-    "name": "my-own-angularjs"
-    , "version": "0.1.0"
-    , "devDependencies": {
-        "jshint": "^2.9.4"
-    },
-    "scripts": {
-        "lint": "jshint src"
-    }
+  "name": "my-own-angularjs",
+  "version": "0.1.0",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "jshint": "^2.9.4",
+    "karma": "^1.4.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "phantomjs": "^2.1.7",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "lint": "jshint src"
+  }
 }
