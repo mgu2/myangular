@@ -1,7 +1,10 @@
 {
-  "name": "my-own-angularjs",
-  "version": "0.1.0",
-  "devDependencies": {
-    "jshint": "^2.9.4"
-  }
+    "name": "my-own-angularjs"
+    , "version": "0.1.0"
+    , "devDependencies": {
+        "jshint": "^2.9.4"
+    },
+    "scripts": {
+        "lint": "jshint src"
+    }
 }
