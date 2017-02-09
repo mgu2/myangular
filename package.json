@@ -12,6 +12,8 @@
     "sinon": "^1.17.7"
   },
   "scripts": {
-    "lint": "jshint src"
+    "lint": "jshint src",
+    "test": "karma start"
+      
   }
 }
