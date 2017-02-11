@@ -94,5 +94,7 @@ describe("Scope", function () {
             scope.$digest();
             expect(scope.initial).toBe('B.');
         });
+        
+        
     });
 });
